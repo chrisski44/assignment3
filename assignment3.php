@@ -1,8 +1,10 @@
 <?php 
+	//Import the two classes for use
 	include "ParentClass.php";
 	include "ChildClass.php";
+	//Instance of parent class
 	$Steelers = new ParentClass("Steelers", "Pittsburgh", "Football");
-
+	//Instance of child class
 	$Rams = new ChildClass("Rams", "St. Louis", "Football", "rams.jpg", "The Dome at America's Center");
 ?>
 
