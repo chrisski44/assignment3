@@ -25,10 +25,10 @@
 		  return $this->sport;
 	  }
     //Magic method toString
-    public function __toString(){
-      $fullName = $this->getCity()." ".$this->getName();
+    	  public function __toString(){
+      		$fullName = $this->getCity()." ".$this->getName();
 
-      return "Team Name: ".$fullName."<br> Sport: ".$this->getSport()."<br>";
-    }
-}
+      		return "Team Name: ".$fullName."<br> Sport: ".$this->getSport()."<br>";
+    	  }
+	}
 ?>
