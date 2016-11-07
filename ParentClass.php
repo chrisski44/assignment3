@@ -30,4 +30,5 @@
 
       return "Team Name: ".$fullName."<br> Sport: ".$this->getSport()."<br>";
     }
-	}
+}
+?>
